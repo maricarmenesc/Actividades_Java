@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ejercicios de JavaScript</h1>
+
+    <h2>Ejercicio 1: Comprobar si puede conducir</h2>
+    <form id="form1">
+        <label for="edad">Ingrese su edad:</label>
+        <input type="number" id="edad" name="edad">
+        <button type="button" onclick="comprobarEdad()">Verificar</button>
+    </form>
+    <p id="resultado1"></p>
+
+    <h2>Ejercicio 2: Calificación según la nota</h2>
+    <form id="form2">
+        <label for="nota">Ingrese una nota (0-10):</label>
+        <input type="number" id="nota" name="nota">
+        <button type="button" onclick="calificarNota()">Calificar</button>
+    </form>
+    <p id="resultado2"></p>
+
+    <h2>Ejercicio 3: Concatenar cadenas</h2>
+    <button type="button" onclick="concatenarCadenas()">Empezar</button>
+    <p id="resultado3"></p>
+
+    <h2>Ejercicio 4: Calcular letra del DNI</h2>
+    <form id="form4">
+        <label for="dni">Ingrese el número de DNI:</label>
+        <input type="number" id="dni" name="dni">
+        <button type="button" onclick="calcularLetraDNI()">Calcular</button>
+    </form>
+    <p id="resultado4"></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
